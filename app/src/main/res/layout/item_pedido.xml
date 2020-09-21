@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/selector_white_gray_transparent_border_rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvIdPedidoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvEstatusPedidoItem" />
+
+        <TextView
+            android:id="@+id/tvEstatusPedidoItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Estatus"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/tvDescNoPedido"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivTiendaPedidoItem" />
+
+        <TextView
+            android:id="@+id/tvDireccionPedidoItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Direccion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEntregadoPor" />
+
+        <TextView
+            android:id="@+id/tvTotalpedidoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="$0.00"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDireccionPedidoItem" />
+
+        <TextView
+            android:id="@+id/tvNombrePedidoItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_light_transparent"
+            android:elevation="5dp"
+            android:text="tienda"
+            android:textAlignment="textEnd"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="@+id/ivTiendaPedidoItem"
+            app:layout_constraintEnd_toEndOf="@+id/ivTiendaPedidoItem"
+            app:layout_constraintStart_toStartOf="@+id/ivTiendaPedidoItem" />
+
+        <ImageView
+            android:id="@+id/ivTiendaPedidoItem"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iv_placeholder" />
+
+        <TextView
+            android:id="@+id/tvEntregadoPor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Pedido por:"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEstatusPedidoItem" />
+
+        <TextView
+            android:id="@+id/tvNombrePedidoPor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="nombre"
+            app:layout_constraintEnd_toStartOf="@+id/tvFechaPedidoItem"
+            app:layout_constraintStart_toEndOf="@+id/tvEntregadoPor"
+            app:layout_constraintTop_toTopOf="@+id/tvEntregadoPor" />
+
+        <TextView
+            android:id="@+id/tvFechaPedidoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="07 abril 2020"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvNombrePedidoPor" />
+
+        <TextView
+            android:id="@+id/tbAbiertoPedidoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Abierto"
+            android:textColor="@color/ared"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDireccionPedidoItem" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:tint="@color/orange_light"
+            app:layout_constraintBottom_toBottomOf="@+id/tbAbiertoPedidoItem"
+            app:layout_constraintStart_toEndOf="@+id/tbAbiertoPedidoItem"
+            app:layout_constraintTop_toTopOf="@+id/tbAbiertoPedidoItem"
+            app:srcCompat="@drawable/ic_reloj" />
+
+        <TextView
+            android:id="@+id/tvHorarioPedidoItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="08:00 - 18:00 hrs"
+            app:layout_constraintEnd_toStartOf="@+id/tvTotalpedidoItem"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+        <TextView
+            android:id="@+id/tvDescNoPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="No. Pedido"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/tvIdPedidoItem"
+            app:layout_constraintTop_toTopOf="@+id/tvIdPedidoItem" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

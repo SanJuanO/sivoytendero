@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">¡Sì! voy repartidor</string>
+
+
+    <string name="OPEN_PRODUCCION">true</string>
+    <string name="merchantId">m4puwlmcsisiixkrjer9</string>
+    <string name="apiOpenPay">pk_cf106319591147c4bea14f78044a0a30</string>
+    <string name="URL_HOST">https://appis-sivoy.expressmyapp.com/api/</string>
+    <!--PROD-
+     <string name="URL_HOST">HTTPS://appis-test-polar.polar.house/api/</string>
+     <string name="merchantId">m4tzxvoqsrbwdwueceeq</string>
+     <string name="apiOpenPay">pk_c4959aea8ebb4d4f94d9255a46c0eca1</string>
+ -->
+    <string name="imagen_perfil">imagen_perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="estatus">
+        <item>Nuevo</item>
+        <item>Preparando</item>
+        <item>Recogiendo</item>
+        <item>Entregando</item>
+        <item>Entregado</item>
+    </string-array>
+
+</resources>

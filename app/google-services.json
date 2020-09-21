@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "455996787301",
+    "firebase_url": "https://sivoy-fdef9.firebaseio.com",
+    "project_id": "sivoy-fdef9",
+    "storage_bucket": "sivoy-fdef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455996787301:android:bb267d483bda5990ae948c",
+        "android_client_info": {
+          "package_name": "com.gesdes.sivoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455996787301-u8ba9am60u2rid3pd9t1ouckf0aa940k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl4aNpUIJzem5bgKqyyI3BD1shcP5HjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455996787301-u8ba9am60u2rid3pd9t1ouckf0aa940k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455996787301-q2ifbrp2r6uk3gkj171i5bhks59ues6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acmarket.gesdes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455996787301:android:99d1a0eb991827d9ae948c",
+        "android_client_info": {
+          "package_name": "com.sivoyrepartidor.acmarkettendero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455996787301-u8ba9am60u2rid3pd9t1ouckf0aa940k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl4aNpUIJzem5bgKqyyI3BD1shcP5HjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455996787301-u8ba9am60u2rid3pd9t1ouckf0aa940k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "455996787301-q2ifbrp2r6uk3gkj171i5bhks59ues6k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acmarket.gesdes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
